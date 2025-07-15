@@ -1,0 +1,51 @@
+export const MEDT_TOKEN_ADDRESSES = {
+  CALIBRATION: "0x823E5B8AA6ac46cFdc3b5A68f969ECb07efCE845",
+  LINEA_SEPOLIA: "",
+  BASE_SEPOLIA: "",
+  OPTIMISM_SEPOLIA: "",
+  POLYGON_AMOY: "",
+  CELO_ALFAJORES: "",
+  SEPOLIA: "0xAA8503c73fDA43f34992dc9E12e157A2D8137727"
+};
+
+export const MEDI_INVOICE_ADDRESSES = {
+  CALIBRATION: "0xeEEFe607e5f4649cE99E4eaa9CDa1cDDE32Ee168",
+  LINEA_SEPOLIA: "",
+  BASE_SEPOLIA: "",
+  OPTIMISM_SEPOLIA: "",
+  POLYGON_AMOY: "",
+  CELO_ALFAJORES: "",
+  SEPOLIA: "0x9CE706d43f19C40Ea6F8223a2B038E8A774a2292"
+};
+
+export const SUPPORTED_NETWORKS = {
+  CALIBRATION: {
+    chainId: "0x4cb2f" // 314159
+  },
+  LINEA_SEPOLIA: {
+    chainId: "0xe705" // 59140
+  },
+  BASE_SEPOLIA: {
+    chainId: "0x14a34" // 846000
+  },
+  OPTIMISM_SEPOLIA: {
+    chainId: "0xaa37dc" // 11155420
+  },
+  POLYGON_AMOY: {
+    chainId: "0x13882" // 80002
+  },
+  CELO_ALFAJORES: {
+    chainId: "0xaef3" // 44787
+  },
+  SEPOLIA: {
+    chainId: "0xaa36a7" // 11155111
+  }
+};
+
+
+export const TOKEN_COST = {
+  SAVE: "1",
+  SAVE_AS: "1",
+  PRINT: "1",
+  EMAIL: "1"
+};
