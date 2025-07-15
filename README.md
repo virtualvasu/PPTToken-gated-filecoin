@@ -1,28 +1,58 @@
-# PPTToken-gated-filecoin
+# PPTToken-Gated Filecoin dApp
 
-to run the web-app:
+## Overview
 
+This web application provides a token-gated experience powered by the Park Pro Token (PPT), an ERC-20 token. It supports wallet connections via MetaMask and restricts access based on token ownership. The app is deployed for use across multiple Ethereum-compatible testnets.
+
+## Getting Started
+
+### Installation
+
+To install the dependencies and run the project locally:
+
+```bash
 npm install
+npm run dev
+```
 
-npm run dev 
+Then open your browser and navigate to:
 
-go to : http://localhost:5173/
+```
+http://localhost:5173/
+```
 
-supported networks for MetaMask wallet:
+## Supported Networks
 
-CALIBRATION, LINEA_SEPOLIA, BASE_SEPOLIA, OPTIMISM_SEPOLIA, POLYGON_AMOY, CELO_ALFAJORES, SEPOLIA
+### Wallet Compatibility
 
-supported networks for Park Pro Token (PPT token ERC-20 contract deployed on these networks):
+The application supports MetaMask connections on the following test networks:
 
-CALIBRATION
+* Calibration (Filecoin testnet)
+* Linea Sepolia
+* Base Sepolia
+* Optimism Sepolia
+* Polygon Amoy
+* Celo Alfajores
+* Sepolia
 
-contract address: 0x857e1BA1Dfe726E33698cD21f38A02161d7958E3
+### PPT Token Deployment
 
-block explorer address: https://filscan.io/en/address/0x857e1BA1Dfe726E33698cD21f38A02161d7958E3/
+The Park Pro Token (PPT) is deployed on the following networks:
 
-SEPOLIA
+#### Calibration (Filecoin Testnet)
 
-contract address: 0xAA8503c73fDA43f34992dc9E12e157A2D8137727
+* **Contract Address:** `0x857e1BA1Dfe726E33698cD21f38A02161d7958E3`
+* **Block Explorer:** [View on Filscan](https://filscan.io/en/address/0x857e1BA1Dfe726E33698cD21f38A02161d7958E3/)
 
-block explorer address: https://sepolia.etherscan.io/address/0xAA8503c73fDA43f34992dc9E12e157A2D81377278
+#### Sepolia
+
+* **Contract Address:** `0xAA8503c73fDA43f34992dc9E12e157A2D8137727`
+* **Block Explorer:** [View on Etherscan](https://sepolia.etherscan.io/address/0xAA8503c73fDA43f34992dc9E12e157A2D81377278)
+
+## Notes
+
+* Ensure MetaMask is installed and the wallet is connected to one of the supported testnets.
+* Make sure your wallet holds PPT tokens on the appropriate network to access gated functionality.
+
+---
 
